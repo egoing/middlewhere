@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+    <h1>MiddleWhere?</h1>
+        <table>
+            <tbody id="data_list">
+                
+            </tbody>
+        </table>
+        <form id="data_form">
+            <input type="text" name="name"></input>
+            <textarea name="country"></textarea>
+            <input type="submit"></input>
+        </form>
+        <form id="upload_form">
+            <ul id="file_list">
+            </ul>
+            <input type="file" name="userfile" id="fileChooser">
+            <input type="submit">
+        </form>
+        <input type="button" id="data_refresh" value="refresh">
+        
+        <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+        </fb:login-button>
+        <script src="middlewhere.bundle.js"></script>
+    </body>
+</html>

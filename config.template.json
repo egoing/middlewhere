@@ -1,0 +1,32 @@
+{
+	'localhost:3000':{
+		'facebook':{
+			'appId':'233930310283754'
+		},
+		'cognito':{
+			'region':'ap-northeast-1',
+			'identityPoolId':'ap-northeast-1:5ec20bbf-8009-44fa-9ccc-1f2b6f8e5da8'
+		},
+		'dynamodb':{
+			'tableName':'middlewhere-dev'
+		},
+		's3':{
+			'bucketName':'middlewhere-dev'
+		}
+	},
+	'http://middlewhere.s3-website-ap-northeast-1.amazonaws.com/':{
+		'facebook':{
+			'appId':'233442920332493'
+		},
+		'cognito':{
+			'region':'ap-northeast-1',
+			'identityPoolId':'ap-northeast-1:8b114242-92ba-4edf-9dd5-a1cccbe76ee5'
+		},
+		'dynamodb':{
+			'tableName':'middlewhere2'
+		},
+		's3':{
+			'bucketName':'middlewhere'
+		}
+	}
+}
